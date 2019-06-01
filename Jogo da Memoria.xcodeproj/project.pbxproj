@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		4A050E0B2299758A0055761D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A050E0A2299758A0055761D /* AppDelegate.swift */; };
-		4A050E0D2299758A0055761D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A050E0C2299758A0055761D /* ViewController.swift */; };
+		4A050E0D2299758A0055761D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A050E0C2299758A0055761D /* GameViewController.swift */; };
 		4A050E102299758A0055761D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A050E0E2299758A0055761D /* Main.storyboard */; };
 		4A050E122299758C0055761D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A050E112299758C0055761D /* Assets.xcassets */; };
 		4A050E152299758C0055761D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A050E132299758C0055761D /* LaunchScreen.storyboard */; };
+		4A050E1E2299A0E70055761D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A050E1D2299A0E70055761D /* Game.swift */; };
+		4A050E202299AAD40055761D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A050E1F2299AAD40055761D /* Extensions.swift */; };
+		4ADA7339229EAEAE00CC2356 /* CardTextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA7338229EAEAE00CC2356 /* CardTextProvider.swift */; };
+		4ADA733B229ECBEB00CC2356 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA733A229ECBEB00CC2356 /* WelcomeViewController.swift */; };
+		4ADA733D229ED37C00CC2356 /* WinGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA733C229ED37C00CC2356 /* WinGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A050E072299758A0055761D /* Jogo da Memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jogo da Memoria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A050E0A2299758A0055761D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A050E0C2299758A0055761D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A050E0C2299758A0055761D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4A050E0F2299758A0055761D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A050E112299758C0055761D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A050E142299758C0055761D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A050E162299758C0055761D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A050E1D2299A0E70055761D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4A050E1F2299AAD40055761D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4ADA7338229EAEAE00CC2356 /* CardTextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTextProvider.swift; sourceTree = "<group>"; };
+		4ADA733A229ECBEB00CC2356 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4ADA733C229ED37C00CC2356 /* WinGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		4A050E092299758A0055761D /* Jogo da Memoria */ = {
 			isa = PBXGroup;
 			children = (
-				4A050E0A2299758A0055761D /* AppDelegate.swift */,
-				4A050E0C2299758A0055761D /* ViewController.swift */,
+				4A050E1C2299771D0055761D /* SupportingFiles */,
+				4A050E0C2299758A0055761D /* GameViewController.swift */,
 				4A050E0E2299758A0055761D /* Main.storyboard */,
-				4A050E112299758C0055761D /* Assets.xcassets */,
-				4A050E132299758C0055761D /* LaunchScreen.storyboard */,
 				4A050E162299758C0055761D /* Info.plist */,
+				4A050E1D2299A0E70055761D /* Game.swift */,
+				4A050E1F2299AAD40055761D /* Extensions.swift */,
+				4ADA7338229EAEAE00CC2356 /* CardTextProvider.swift */,
+				4ADA733A229ECBEB00CC2356 /* WelcomeViewController.swift */,
+				4ADA733C229ED37C00CC2356 /* WinGameViewController.swift */,
 			);
 			path = "Jogo da Memoria";
+			sourceTree = "<group>";
+		};
+		4A050E1C2299771D0055761D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4A050E0A2299758A0055761D /* AppDelegate.swift */,
+				4A050E112299758C0055761D /* Assets.xcassets */,
+				4A050E132299758C0055761D /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A050E0D2299758A0055761D /* ViewController.swift in Sources */,
+				4A050E0D2299758A0055761D /* GameViewController.swift in Sources */,
+				4ADA7339229EAEAE00CC2356 /* CardTextProvider.swift in Sources */,
+				4A050E1E2299A0E70055761D /* Game.swift in Sources */,
+				4ADA733B229ECBEB00CC2356 /* WelcomeViewController.swift in Sources */,
 				4A050E0B2299758A0055761D /* AppDelegate.swift in Sources */,
+				4A050E202299AAD40055761D /* Extensions.swift in Sources */,
+				4ADA733D229ED37C00CC2356 /* WinGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
